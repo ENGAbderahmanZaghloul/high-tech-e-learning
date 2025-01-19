@@ -1,0 +1,225 @@
+/* ال navbar القديم */
+.Navbar {
+    background: url(../blue_bg.png);
+}
+
+.Navbar h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.icons {
+    font-size: 15px;
+    width: 35px !important;
+    height: 35px !important;
+    padding: 8px;
+    background-color: #e0e0e0;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-right: 20px;
+
+
+}
+
+
+
+.icons:hover {
+    background-color: #d6d6d6;
+}
+
+.loginBtn {
+    color: #fff !important;
+}
+
+.loginBtn:hover {
+    background-color: rgb(255 193 7) !important;
+}
+
+
+@media(max-width:1010px) {
+    .nav-link {
+        justify-content: center;
+    }
+
+    .login-div {
+        width: max-content;
+        position: absolute;
+        left: 20px;
+        top: 37px;
+        gap: 2px !important;
+    }
+}
+
+@media(max-width:910px) {
+    .nav-links {
+        position: relative;
+        left: 25px;
+
+    }
+}
+
+@media(max-width:810px) {
+    .login-div {
+        width: max-content;
+        position: relative;
+        left: auto;
+        top: auto;
+
+    }
+}
+
+@media(max-width:510px) {
+    .Navbar {
+        overflow-x: hidden;
+    }
+
+    .navContainer {
+        position: relative;
+        right: 22px;
+    }
+
+    .nav-link {
+        transition: none;
+        position: relative;
+        right: 12px;
+        top: 5px;
+    }
+}
+
+
+/* الجديد  */
+
+/* Navbar Styling */
+/* Navbar Background */
+/* .Navbar {
+    background: #0d47a1;
+    padding: 10px 0;
+}
+
+
+.Navbar h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+    color: white;
+}
+
+.Navbar h1 span {
+    color: rgb(255, 193, 7);
+}
+
+.nav-links {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: rgb(255, 193, 7);
+}
+
+
+.select .MuiInputLabel-root,
+.select .MuiSelect-root {
+    color: white !important;
+}
+
+.select .MuiSelect-icon {
+    color: white;
+}
+
+
+.icons {
+    font-size: 15px;
+    width: 35px !important;
+    height: 35px !important;
+    padding: 8px;
+    background-color: #e0e0e0;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-right: 20px;
+}
+
+.icons:hover {
+    background-color: #d6d6d6;
+}
+
+
+.loginBtn {
+    color: #fff !important;
+}
+
+.loginBtn:hover {
+    background-color: rgb(255 193 7) !important;
+}
+
+.signup-btn {
+    background-color: rgb(255, 193, 7);
+    color: #000;
+}
+
+.signup-btn:hover {
+    background-color: rgb(255, 172, 0);
+}
+
+
+@media (max-width: 1010px) {
+    .nav-link {
+        justify-content: center;
+    }
+
+    .login-div {
+        width: max-content;
+        position: absolute;
+        left: 20px;
+        top: 37px;
+        gap: 2px !important;
+    }
+}
+
+
+@media (max-width: 910px) {
+    .nav-links {
+        position: relative;
+        left: 25px;
+    }
+}
+
+@media (max-width: 810px) {
+    .login-div {
+        width: max-content;
+        position: relative;
+        left: auto;
+        top: auto;
+    }
+}
+
+
+@media (max-width: 510px) {
+    .navContainer {
+        place-content: flex-end;
+    }
+
+    .nav-link {
+        transition: none;
+        position: relative;
+        right: 12px;
+        top: 5px;
+    }
+} */

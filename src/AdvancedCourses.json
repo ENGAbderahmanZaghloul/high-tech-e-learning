@@ -1,0 +1,14 @@
+[
+  {
+    "id": 3,
+    "title": "Mobile Applications",
+    "level": "متقدم",
+    "details": ["Germany", "English"]
+  },
+  {
+    "id": 6,
+    "title": "UI/UX Design",
+    "level": "متقدم",
+    "details": ["Italy", "English"]
+  }
+]

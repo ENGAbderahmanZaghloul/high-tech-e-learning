@@ -1,0 +1,21 @@
+[
+  {
+    "id": 1,
+    "title": "Data Analysis",
+    "level": "مبتدئ",
+    "details": ["Germany", "English"],
+    "img": "uiBasic"
+  },
+  {
+    "id": 4,
+    "title": "Back-end",
+    "level": "مبتدئ",
+    "details": ["Italy", "English"]
+  },
+  {
+    "id": 7,
+    "title": "Video Editing",
+    "level": "مبتدئ",
+    "details": ["Germany", "English"]
+  }
+]

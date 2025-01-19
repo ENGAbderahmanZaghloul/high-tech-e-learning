@@ -1,0 +1,202 @@
+.swiper {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.swiper img {
+    width: 282px !important;
+    height: 310px !important;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.arrowBtn {
+    position: relative;
+    right: 34px;
+    top: 4px;
+}
+
+.prev-btn,
+.next-btn {
+    border-radius: 50% !important;
+    width: 50px;
+    height: 50px;
+    background-color: #00796b !important;
+}
+
+@media (max-width:770px) {
+
+    .certfText,
+    .swiper,
+    .certfTitle {
+        width: 100% !important;
+        text-align: center !important;
+    }
+
+    .certfText {
+        margin-bottom: 30px;
+    }
+
+    .certf-swiper {
+        margin: 0 auto;
+    }
+
+    .certfText>p {
+        text-align: center;
+    }
+}
+
+/* تصميم السلايدر */
+.swiper {
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    overflow: visible;
+    /* السماح بعرض الصور الجانبية */
+}
+
+/* تصميم الصور */
+.swiper-slide {
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+/* الصورة النشطة */
+.swiper-slide-active img {
+    opacity: 1;
+    /* جعل الصورة النشطة واضحة */
+    transform: scale(1.1);
+    /* تكبير الصورة النشطة */
+    z-index: 2;
+    /* وضع الصورة النشطة فوق الصور الجانبية */
+}
+
+/* الصور الجانبية */
+.swiper-slide-next img,
+.swiper-slide-prev img {
+    opacity: 0.4;
+    /* جعل الصور الجانبية مضلمة */
+    transform: translateX(-30%) scale(0.9);
+    /* تحريك الصور الجانبية وتقليل حجمها */
+    z-index: 1;
+    /* الصور الجانبية أسفل الصورة النشطة */
+}
+
+/* إزالة المسافات بين الصور */
+.swiper-slide-next {
+    margin-left: -15%;
+}
+
+.swiper-slide-prev {
+    margin-right: -15%;
+}
+
+/* أزرار التنقل */
+.swiper-button-next,
+.swiper-button-prev {
+    background-color: #0d47a1;
+    color: white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    font-size: 1.5rem;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+    background-color: #0b3a84;
+}
+
+/* النصوص */
+h2 {
+    font-size: 2rem;
+    color: #0d47a1;
+    text-align: right;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #333;
+    text-align: right;
+}
+
+/* الشعارات */
+.partner-logo {
+    width: 150px;
+    height: auto;
+    margin: 10px 5px;
+}
+
+
+/* تصميم أزرار التنقل */
+.swiper-button-prev,
+.swiper-button-next {
+    position: absolute;
+    top: 50%;
+    /* وضع الأزرار في منتصف السلايدر */
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    /* شكل دائري */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    /* ظل للأزرار */
+    z-index: 10;
+    /* وضع الأزرار فوق السلايدر */
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* زر التنقل السابق */
+.swiper-button-prev {
+    left: -20px;
+    /* وضعه على اليسار */
+    background-color: white;
+    /* خلفية بيضاء */
+    color: #0d47a1;
+    /* لون أيقونة أزرق */
+    border: 2px solid #0d47a1;
+    /* إطار أزرق */
+}
+
+/* زر التنقل التالي */
+.swiper-button-next {
+    right: -20px;
+    /* وضعه على اليمين */
+    background-color: #0d47a1;
+    /* خلفية زرقاء */
+    color: white;
+    /* لون أيقونة أبيض */
+    border: 2px solid white;
+    /* إطار أبيض */
+}
+
+/* التأثير عند التحويم */
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+    transform: translateY(-50%) scale(1.1);
+    /* تكبير الزر عند التحويم */
+}
+
+/* الأيقونات داخل الأزرار */
+.swiper-button-prev::after,
+.swiper-button-next::after {
+    font-size: 1.5rem;
+    /* حجم الأيقونة */
+}

@@ -1,0 +1,171 @@
+swiper before editing
+                    // <Col xs={12} md={6}>
+                    //     <Swiper
+                    //         className="swiper"
+                    //         modules={[Navigation]} // إضافة خاصية التنقل
+                    //         navigation={{ nextEl: ".next-btn", prevEl: ".prev-btn" }} // أزرار التنقل
+                    //         // navigation
+                    //         spaceBetween={30} // المسافة بين الشرائح
+                    //         slidesPerView={1} // عدد الشرائح المرئية
+                    //         // breakpoints={{
+                    //         //     768: { slidesPerView: 2 },
+                    //         //     1200: { slidesPerView: 3 },
+                    //         // }}
+                    //         style={{ width: "100%", height: "auto" }}
+                    //     >
+                    //         {/* شريحة 1 */}
+                    //         <SwiperSlide>
+                    //             <img
+                    //                 src={certf1}
+                    //                 alt="Certificate 1"
+                    //                 style={{
+                    //                     width: "100%",
+                    //                     height: "auto",
+                    //                     borderRadius: "10px",
+                    //                 }}
+                    //             />
+                    //         </SwiperSlide>
+
+                    //         {/* شريحة 2 */}
+                    //         <SwiperSlide>
+                    //             <img
+                    //                 src={certf2}
+                    //                 alt="Certificate 2"
+                    //                 style={{
+                    //                     width: "100%",
+                    //                     height: "auto",
+                    //                     borderRadius: "10px",
+                    //                 }}
+                    //             />
+                    //         </SwiperSlide>
+                    //         {/* شريحة 3 */}
+                    //         <SwiperSlide>
+                    //             <img
+                    //                 src={certf3}
+                    //                 alt="Certificate 2"
+                    //                 style={{
+                    //                     width: "100%",
+                    //                     height: "auto",
+                    //                     borderRadius: "10px",
+                    //                 }}
+                    //             />
+                    //         </SwiperSlide>
+
+                    //         {/* شريحة 4 */}
+                    //         <SwiperSlide>
+                    //             <img
+                    //                 src={certf4}
+                    //                 alt="Certificate 2"
+                    //                 style={{
+                    //                     width: "100%",
+                    //                     height: "auto",
+                    //                     borderRadius: "10px",
+                    //                 }}
+                    //             />
+                    //         </SwiperSlide>
+                    //     </Swiper>
+
+                        
+                    //     <div className="d-flex justify-content-between align-items-center mt-3 arrowBtn">
+                    //         <Button variant="contained" className="prev-btn" >
+                    //             <ArrowForwardIcon />
+                    //         </Button>
+                    //         <Button variant="contained" className="next-btn">
+
+                    //             <ArrowBackIcon />
+                    //         </Button>
+                    //     </div>
+                    // </Col>
+
+خد ال navbar القديم 
+            <NavbarBS sticky="top" className="Navbar" dir="rtl">
+                <Container className="navContainer">
+                    <Row className="w-100 align-items-center">
+                        <Col xs={12} md={3} className="text-center text-md-end">
+                            <h1 style={{ color: "white" }}>
+                                High T<span style={{ color: "rgb(255 193 7)" }}>e</span>ch
+                            </h1>
+                        </Col>
+
+                        {/* العمود الثاني: الروابط والقوائم المنسدلة */}
+                        <Col xs={12} md={6} className="d-flex justify-content-center">
+                            <Nav className="nav-links d-flex justify-content-between align-items-center" style={{ gap: "5px" }}>
+                                <Nav.Link style={{ color: "white"  ,width:"max-content"}} to="من نحن ؟" as={NavLink}>
+                                    من نحن ؟
+                                </Nav.Link>
+                                <FormControl className="select" variant="standard" sx={{ m: 1, minWidth: 120 }}>
+                                    <InputLabel style={{ color: "white" }} id="demo-simple-select-standard-label">
+                                        الدورات التدريبية
+                                    </InputLabel>
+                                    <Select
+                                        labelId="demo-simple-select-standard-label"
+                                        
+                                        id="demo-simple-select-standard"
+                                        label="الدورات التدريبية"
+                                    >
+                                        <MenuItem value="">
+                                            <em>None</em>
+                                        </MenuItem>
+                                        <MenuItem value={10}>Ten</MenuItem>
+                                        <MenuItem value={20}>Twenty</MenuItem>
+                                        <MenuItem value={30}>Thirty</MenuItem>
+                                    </Select>
+                                </FormControl>
+                                <FormControl variant="standard" sx={{ m: 1, minWidth: 120 }}>
+                                    <InputLabel style={{ color: "white" }} id="demo-simple-select-standard-label">
+                                        الخدمات للشركات
+                                    </InputLabel>
+                                    <Select
+                                        labelId="demo-simple-select-standard-label"
+                                        id="demo-simple-select-standard"
+                                        label="الخدمات للشركات"
+                                    >
+                                        <MenuItem value="">
+                                            <em>None</em>
+                                        </MenuItem>
+                                        <MenuItem value={10}>Ten</MenuItem>
+                                        <MenuItem value={20}>Twenty</MenuItem>
+                                        <MenuItem value={30}>Thirty</MenuItem>
+                                    </Select>
+                                </FormControl>
+                            </Nav>
+                        </Col>
+
+                        <Col xs={12} md={3} className="d-flex justify-content-center justify-content-md-end">
+                            <div className="d-flex align-items-center login-div" style={{ gap: "5px" }}>
+                                <SearchIcon
+                                    style={{
+                                        fontSize: "15px",
+                                        width: "30px",
+                                        height: "30px",
+                                        padding: "5px",
+                                        backgroundColor: "#e0e0e0",
+                                        borderRadius: "50%",
+                                    }}
+                                />
+                                <span
+                                    style={{
+                                        fontSize: "15px",
+                                        width: "30px",
+                                        height: "30px",
+                                        padding: "5px",
+                                        backgroundColor: "#e0e0e0",
+                                        borderRadius: "50%",
+                                    }}
+                                >
+                                    EN
+                                </span>
+                                <Button variant="text" className="loginBtn">
+                                    تسجيل الدخول
+                                </Button>
+                                <Button variant="contained" className="bg-warning">
+                                    انشاء حساب
+                                </Button>
+                            </div>
+                        </Col>
+                    </Row>
+                </Container>
+            </NavbarBS>
+            
+
+
