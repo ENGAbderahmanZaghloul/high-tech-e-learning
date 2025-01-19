@@ -1,0 +1,93 @@
+.footer {
+    background: url(../imgs/hero_pattern_bg\ 1.png);
+    background-color: #035c37;
+    background-size: contain;
+    padding-bottom: 14rem !important;
+    position: relative;
+    margin-top: 140px !important;
+}
+
+.footer .data {
+    text-align: center;
+    width: max-content;
+    padding: 10px 30px;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, -50%);
+    border-radius: 12px;
+    border-top-right-radius: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    direction: rtl;
+    /* margin-top: 50px !important; */
+}
+
+.footer .data p {
+    width: 55%;
+    text-align: center;
+    color: white;
+}
+
+.footer .data p span {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.footer .data button {
+    background-color: #035c37;
+    padding: 10px 15px;
+    color: white;
+    border-radius: 13px;
+    border: none;
+}
+
+.chatIcon {
+    width: 40px;
+    height: 40px;
+    background-color: #ffa000;
+    border-radius: 50%;
+    position: absolute;
+    right: 30px;
+    bottom: 20px;
+    cursor: pointer;
+}
+
+.chatIcon:hover {
+    transform: scale(1.1);
+}
+
+
+.chatIcon svg {
+    margin: 0 auto;
+    position: absolute;
+    right: 50%;
+    bottom: 50%;
+    transform: translate(50%, 50%);
+    color: #fff;
+}
+
+@media(max-width:650px) {
+    .footer .data {
+        width: 500px;
+        justify-content: center;
+        gap: 5px;
+    }
+}
+
+@media(max-width:540px) {
+    .footer .data {
+        width: 350px;
+        justify-content: center;
+        gap: 10px;
+        padding: 5px 20px;
+    }
+
+    .footer .data p {
+        width: 78%;
+        text-align: center;
+        color: white;
+    }
+}

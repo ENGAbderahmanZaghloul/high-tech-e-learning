@@ -1,0 +1,20 @@
+[
+  {
+    "id": 2,
+    "title": "Graphic Design",
+    "level": "متوسط",
+    "details": ["Italy", "English"]
+  },
+  {
+    "id": 5,
+    "title": "Front-end",
+    "level": "متوسط",
+    "details": ["Germany", "English"]
+  },
+  {
+    "id": 8,
+    "title": "3D Design",
+    "level": "متوسط",
+    "details": ["Italy", "English"]
+  }
+]

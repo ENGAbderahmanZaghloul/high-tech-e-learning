@@ -1,0 +1,24 @@
+.dev-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dev-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.dev-info img {
+    width: 100px !important;
+    height: 100px !important;
+    margin-bottom: 10px;
+}
+
+.dev-info h6 {
+padding: 0;
+margin: 0 0 5px 0;
+}

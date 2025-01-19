@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "title": "UI/UX Design ",
+    "level": "مبتدئ",
+    "details": ["Germany", "English"],
+    "img": "uiBasic",
+    "avatar": "john",
+    "name" :"جون محسن",
+    "icon" :"uiIcon",
+    "levelIcon" : "beginnerIcon"
+  },
+  {
+    "id": 2,
+    "title": "Mobile Applications",
+    "level": "متوسط",
+    "details": ["Italy", "English"],
+    "img": "mobileIntermediate",
+    "avatar": "angelo",
+    "name" :"انجيليوس رزق ",
+    "icon" :"mobileIcon",
+    "levelIcon" : "immediateIcon"
+  },
+  {
+    "id": 3,
+    "title": "Front-end ",
+    "level": "متقدم",
+    "details": ["Germany", "English"],
+    "img": "frontAdvance",
+    "avatar": "abdu",
+    "name" :" عبدالرحمن زغلول ",
+    "icon" :"frontIcon",
+    "levelIcon" : "advanceIcon"
+  },
+  {
+    "id": 4,
+    "title": "Data Analysis",
+    "level": "متوسط",
+    "details": ["Italy", "English"],
+    "img": "dataImmediate",
+    "avatar": "Cherstin",
+    "name" :"  كريستين عماد ",
+    "icon" :"dataIcon",
+    "levelIcon" : "immediateIcon"
+  },
+  {
+    "id": 5,
+    "title": "Cyber security",
+    "level": "مبتدئ",
+    "details": ["Germany", "English"],
+    "img": "secBasic",
+    "avatar": "mina",
+    "name" :"  ميناعماد  ",
+    "icon" :"secIcon",
+    "levelIcon" : "beginnerIcon"
+  },
+  {
+    "id": 6,
+    "title": "Data Analysis",
+    "level": "متقدم",
+    "details": ["Italy", "English"],
+    "img": "dataAdvance",
+    "avatar": "Cherstin",
+    "name" :"  كريستين عماد ",
+    "icon" :"dataIcon",
+    "levelIcon" : "advanceIcon"
+  },
+  {
+    "id": 7,
+    "title": "UI/UX Design ",
+    "level": "متوسط",
+    "details": ["Germany", "English"],
+    "img": "uiImmediate",
+    "avatar": "john",
+    "name" :"جون محسن",
+    "icon" :"uiIcon",
+    "levelIcon" : "immediateIcon"
+  },
+  {
+    "id": 8,
+    "title": "Mobile Applications",
+    "level": "متقدم",
+    "details": ["Italy", "English"],
+    "img": "mobileAdvance",
+    "avatar": "angelo",
+    "name" :"انجيليوس رزق ",
+    "icon" :"mobileIcon",
+    "levelIcon" : "advanceIcon"
+  }
+]
